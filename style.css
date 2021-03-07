@@ -2,3 +2,12 @@
 {
 	box-sizing: border-box;
 }
+
+.bouton
+{
+    background-color:rgb(6, 72, 251);
+    border: 1px rgb(6, 72, 251) solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
