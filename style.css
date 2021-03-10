@@ -3,5 +3,56 @@
 	box-sizing: border-box;
 }
 
+body
+{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
 
+.topbar
+{
+	position: fixed;
+	background: white;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#logoreservia
+{
+	width: 80px;
+	height: 30px;
+	margin-left: 3%;
+}
+
+.topbar nav
+{
+	float: right;
+	margin-right: 3%;
+	
+}
+
+.topbar nav a
+{
+	font-size: 0.9em;
+	color: gray;
+	text-decoration: none;
+	padding: 0 20px;
+	
+}
+
+.topbar nav a:hover, .topbar nav a.active
+{
+	color: #0065FC;
+	border-top: #0065FC solid 2px;
+	padding-top: 30px;
+}
+
+#inscrire
+{
+	color: #0065FC;
+}
 

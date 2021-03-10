@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
     <title>Reservia</title>
     <script src="https://kit.fontawesome.com/675cdf1a51.js" crossorigin="anonymous"></script>
@@ -11,11 +13,11 @@
 <body>
     <!-- Header et top bar-->
     <header class="topbar">
-        <img id="LogoReservia" src="Projet 2 - Reservia/images/logo/Reservia@3x.png">
+        <img id="logoreservia" src="Projet 2 - Reservia/images/logo/Reservia@3x.png">
         <nav>
-            <a href="#">Hébergements</a>
-            <a href="#">Activités</a>
-            <a href="#">S'inscrire</a>
+            <a href="#ancrehebergement" class="active">Hébergements</a>
+            <a href="#ancreactivites">Activités</a>
+            <a href="#" id="inscrire"><strong>S'inscrire</strong></a>
         </nav>
     </header>
 
@@ -47,6 +49,9 @@
     <!-- Section 2 Hébergements, article aside-->
     <section id="Section2">
         <section>
+            <div>
+                <h2 id="ancrehebergement">Hébergement à Marseille</h2>
+            </div>
             <figure>
                 <a href="#"><img class="hebergement" src="Projet 2 - Reservia/images/hebergements/4_small/Auberge la Cannebière.jpg" alt="Auberge la Cannebière"></a>
                 <figcaption>
@@ -194,8 +199,8 @@
     </section>
 
     <!-- Section 3 Activités-->
-    <section>
-        <h2>Activités à Marseille</h2>
+    <section  id="Section3">
+        <h2 id="ancreactivites">Activités à Marseille</h2>
         <div>
             <figure>
                 <a href="#"><img class="hebergement" src="Projet 2 - Reservia/images/activites/4_small/vieux port.jpg" alt="Vieux Port"></a>
