@@ -3,5 +3,166 @@
 	box-sizing: border-box;
 }
 
+body
+{
+	font-family: 'Raleway', sans-serif;
+	margin: 0 3%;
+	box-sizing: border-box;
+}
+
+#bloc_page
+{
+	
+}
+
+.topbar
+{
+	background: white;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin: 0;	
+}
+
+#logoreservia
+{
+	width: 80px;
+	height: 30px;	
+}
+
+.topbar nav
+{
+	float: right;	
+}
+
+.topbar nav a
+{
+	font-size: 0.9em;
+	color: gray;
+	text-decoration: none;
+	padding: 0 20px;
+	line-height: 30px;			
+}
+
+.topbar nav a:hover, .topbar nav a.active
+{
+	color: #0065FC;
+	border-top: #0065FC solid 2px;
+	padding-top: 10%;
+}
+
+#inscrire
+{
+	color: #0065FC;
+}
+
+#Section1
+{
+	margin-bottom: 45px;
+}
+
+h1
+{
+	font-size: 1em;
+}
+
+#Section1 p
+{
+	font-size: 0.7em;
+}
 
 
+form
+{
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+.localisation
+{
+	background-color: #F2F2F2;
+	border: 1px solid #F2F2F2;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	padding: 13px;
+}
+
+input
+{
+	border: 1px solid #F2F2F2;
+	border-right: none;
+	padding: 13px 0;
+	margin-left: -4px;
+	margin-right: -4px;
+}
+
+.rechercher
+{
+	background-color: #0065FC;
+	border: 1px solid #0065FC;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	color: white;
+	padding: 13px 15px;
+}
+
+.filtres a
+{
+	padding-right: 40px;
+	text-decoration: none;
+	color: black;
+	border: 2px solid rgb(217, 217, 217);
+	border-radius: 25px;
+	padding: 10px 10px 10px 0px;
+	border-left: none;
+}
+
+#filtre
+{
+	border: none;
+	pointer-events: none;
+}
+
+.filtres i
+{
+	margin-right: 10px;
+	padding: 13px;
+	border: 1px solid #DEEBFF;
+	background-color: #DEEBFF;
+	color: #0065FC;
+	border-radius: 50%;
+}
+
+.filtres a:hover
+{
+	background-color: #DEEBFF;
+}
+
+.filtres a:hover i
+{
+	background-color: #0065FC;
+	color: #DEEBFF;
+}
+
+.infobulle
+{
+	display: flex;
+	
+}
+
+.infobulle .infobulletexte
+{
+	padding-left: 10px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+#Section1 .infobulle i
+{	
+	color: #0065FC;
+	border: 1px solid rgb(217, 217, 217);
+	border-radius: 50%;
+	padding: 6px 8px 6px 8px;
+}
