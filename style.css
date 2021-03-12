@@ -103,11 +103,12 @@ input
 .filtres a
 {
 	padding-right: 40px;
+	margin-right: 20px;
 	text-decoration: none;
 	color: black;
 	border: 2px solid rgb(217, 217, 217);
 	border-radius: 25px;
-	padding: 10px 10px 10px 0px;
+	padding: 10px 20px 10px 0px;
 	border-left: none;
 }
 
@@ -160,17 +161,25 @@ input
 }
 
 
+#Section_hebergement_aside
+{
+	display: flex;
+}
+
 #Sectionhebergement
 {
 	background-color: #F2F2F2;
 	border-radius: 25px;
 	padding-top: 20px;
-	width: 63%;
+	margin-right: 30px;
+	width: 72%;
 }
 
 #Sectionhebergement h2
 {
 	padding-left: 30px;
+	font-size: 1em;
+	margin-top: 0;
 }
 
 
@@ -193,7 +202,7 @@ input
 
 #Sectionhebergement figure img
 {
-	width: 200px;
+	width: 227px;
 	height: 90px;
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
@@ -244,4 +253,83 @@ input
 	padding-left: 30px;
 	padding-bottom: 30px;
 	font-size: 0.8em;
+}
+
+#populaire
+{
+	background-color: #F2F2F2;
+	border-radius: 25px;
+	padding-top: 20px;
+	width: 28%;
+}
+
+
+#populaire .titre_populaire
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+#populaire .titre_populaire h2
+{
+	margin-top: 0;
+	padding-left: 30px;
+	font-size: 1em;
+}
+
+#populaire .titre_populaire i
+{
+	font-size: 1em;
+	padding-right: 30px;
+}
+
+
+#populaire figure
+{
+	background-color: white;
+	border-radius: 15px;
+	padding: 5px 5px 0 5px;
+	margin: 0 30px 30px 30px;
+	box-shadow: 0px 2px 15px lightgrey;
+	display: flex;
+}
+
+#populaire figure img
+{
+	width: 100px;
+	height: 110px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+
+#populaire figure figcaption
+{
+	padding-left: 10px;
+}
+
+
+#populaire figure figcaption h3
+{
+	font-size: 0.8em;
+	margin: 3px 0;
+}
+
+#populaire figure figcaption p
+{
+	font-size: 0.6em;
+	margin: 5px 0;
+	
+}
+
+#populaire figure figcaption i
+{
+	color: #0065FC;
+	font-size: 0.8em;
+	padding-top: 30px;
+}
+
+#populaire figure figcaption .greystar
+{
+	color: lightgray;
 }
