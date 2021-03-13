@@ -6,7 +6,7 @@
 body
 {
 	font-family: 'Raleway', sans-serif;
-	margin: 0 3%;
+	margin: auto;
 }
 
 
@@ -16,6 +16,8 @@ body
 	margin: auto;
 }
 
+
+/* Topbar Logo Reservia et menu nav */
 
 .topbar
 {
@@ -72,6 +74,8 @@ h1
 }
 
 
+/* barre de recherche et boutton localisation et rechercher */
+
 form
 {
 	padding: 0;
@@ -105,6 +109,9 @@ input
 	color: white;
 	padding: 13px 15px;
 }
+
+
+/* Menu des filtres */
 
 .filtres a
 {
@@ -145,6 +152,9 @@ input
 	color: #DEEBFF;
 }
 
+
+/* Icone et texte "Plus de 500 logements sont disponibles dans cette ville" */
+
 .infobulle
 {
 	display: flex;
@@ -167,10 +177,16 @@ input
 }
 
 
+
+/* Sections hebergement et aside */
+
 #Section_hebergement_aside
 {
 	display: flex;
 }
+
+
+/* Section hebergement */
 
 #Sectionhebergement
 {
@@ -261,6 +277,8 @@ input
 	font-size: 0.8em;
 }
 
+/* Aside section populaire */
+
 #populaire
 {
 	background-color: #F2F2F2;
@@ -341,6 +359,9 @@ input
 }
 
 
+
+/* Section 3 Activités */
+
 #Section_activites
 {
 	margin-top: 50px;
@@ -351,6 +372,8 @@ input
 {
 	font-size: 1em;
 }
+
+/* Sous section activité 1 (composée des 3 images de gauche) */
 
 #Section_activites .activites1
 {
@@ -389,6 +412,8 @@ input
 	height: 90px;
 }
 
+
+/* Sous section activité 2 (composée des 3 images de droite) */
 
 #Section_activites .activites2
 {
@@ -433,6 +458,8 @@ input
 	height: 106px;
 }
 
+/* Customisation commune aux deux sous sections activités */
+
 #Section_activites figure
 {
 	background-color: white;
@@ -459,4 +486,32 @@ input
 #Section_activites .bloc_imagehaut
 {
 	margin-bottom: 25px;
+}
+
+ 
+/* Customisation Footer */
+
+footer
+{
+	display: flex;
+	padding-left: 33px;
+	margin-top: 30px;
+	background-color: #F2F2F2;
+}
+
+footer ul
+{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+
+footer #a_propos 
+{
+	padding-right: 200px;
+}
+
+footer #nos_hebergement
+{
+	padding-right: 200px;
 }
