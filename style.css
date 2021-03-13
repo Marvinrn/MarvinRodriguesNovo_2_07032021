@@ -361,31 +361,31 @@ input
 
 .activites1 .grande_activite
 {
-	margin: 0 45px 0 0;
+	margin: 0 55px 0 0;
 }
 
 .activites1 .grande_activite img
 {
-	width: 225px;
+	width: 255px;
 	height: 300px;
 }
 
 
 .activites1 .column .petite_activite
 {
-	margin: 0 45px 0 0;
+	margin: 0 55px 0 0;
 }
 
 .activites1 .column .petite_activite .fortpomegues
 {
-	width: 225px;
+	width: 255px;
 	height: 150px;
 }
 
 
 .activites1 .column .petite_activite .frioul
 {
-	width: 225px;
+	width: 255px;
 	height: 90px;
 }
 
@@ -405,12 +405,12 @@ input
 
 .activites2 .grande_activite
 {
-	margin: 0 45px 0 0;
+	margin: 0 55px 0 0;
 }
 
 .activites2 .grande_activite img
 {
-	width: 225px;
+	width: 255px;
 	height: 300px;
 }
 
@@ -422,15 +422,15 @@ input
 
 .activites2 .column .petite_activite .notredame
 {
-	width: 225px;
-	height: 150px;
+	width: 270px;
+	height: 135px;
 }
 
 
 .activites2 .column .petite_activite .longchamp
 {
-	width: 225px;
-	height: 90px;
+	width: 270px;
+	height: 106px;
 }
 
 #Section_activites figure
