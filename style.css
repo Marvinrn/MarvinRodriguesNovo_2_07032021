@@ -365,7 +365,6 @@ input
 #Section_activites
 {
 	margin-top: 50px;
-	display: flex;
 }
 
 #Section_activites .titre_activites
@@ -421,11 +420,6 @@ input
 	width: 50%;
 }
 
-
-#Sous_section_activite2
-{
-	margin-top: 45px;
-}
 
 
 .activites2 .grande_activite
@@ -514,4 +508,10 @@ footer #a_propos
 footer #nos_hebergement
 {
 	padding-right: 200px;
+}
+
+
+#bloc_activites
+{
+	display: flex;
 }
