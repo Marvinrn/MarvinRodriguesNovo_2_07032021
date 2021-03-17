@@ -27,7 +27,7 @@ body
 	top: 0;
 	left: 0;
 	right: 0;
-	padding-top: 30px;
+	padding-top: 45px;
 	padding-bottom: 20px;
 	margin: 0;	
 }
@@ -55,7 +55,7 @@ body
 .topbar nav a:hover, .topbar nav a.active
 {
 	color: #0065FC;
-	border-top: #0065FC solid 2px;
+	border-top: #0065FC solid 4px;
 	padding-top: 10%;
 }
 
@@ -202,7 +202,7 @@ input
 
 #Sectionhebergement h2
 {
-	padding-left: 30px;
+	padding-left: 45px;
 	font-size: 1em;
 	margin-top: 0;
 }
