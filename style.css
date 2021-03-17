@@ -12,8 +12,10 @@ body
 
 #bloc_page
 {
-	width: 1200px;
+	width: 100vw;
 	margin: auto;
+	padding-left: 150px;
+	
 }
 
 
@@ -60,6 +62,7 @@ body
 #inscrire
 {
 	color: #0065FC;
+	margin-right: 135px;
 }
 
 
@@ -372,36 +375,43 @@ input
 	font-size: 1em;
 }
 
+#bloc_activites
+{
+	display: flex;
+}
+
 /* Sous section activité 1 (composée des 3 images de gauche) */
 
 #Section_activites .activites1
 {
 	display: flex;
-	width: 50%;
+	width: 630px;
 }
 
 
 .activites1 .grande_activite
 {
-	margin: 0 55px 0 0;
+	margin: 0 65px 0 0;
 }
 
 .activites1 .grande_activite img
 {
 	width: 255px;
 	height: 300px;
+	object-fit: cover;
 }
 
 
 .activites1 .column .petite_activite
 {
-	margin: 0 55px 0 0;
+	margin: 0 0 0 0;
 }
 
 .activites1 .column .petite_activite .fortpomegues
 {
 	width: 255px;
 	height: 150px;
+	object-fit: cover;
 }
 
 
@@ -409,6 +419,7 @@ input
 {
 	width: 255px;
 	height: 90px;
+	object-fit: cover;
 }
 
 
@@ -424,25 +435,27 @@ input
 
 .activites2 .grande_activite
 {
-	margin: 0 55px 0 0;
+	margin: 0 65px 0 0;
 }
 
 .activites2 .grande_activite img
 {
 	width: 255px;
 	height: 300px;
+	object-fit: cover;
 }
 
 
 .activites2 .column .petite_activite
 {
-	margin: 0 45px 0 0;
+	margin: 0 0 0 0;
 }
 
 .activites2 .column .petite_activite .notredame
 {
 	width: 270px;
 	height: 135px;
+	object-fit: cover;
 }
 
 
@@ -450,6 +463,7 @@ input
 {
 	width: 270px;
 	height: 106px;
+	object-fit: cover;
 }
 
 /* Customisation commune aux deux sous sections activités */
@@ -488,9 +502,9 @@ input
 footer
 {
 	display: flex;
-	padding-left: 33px;
 	margin-top: 30px;
 	background-color: #F2F2F2;
+	width: 100vw;
 }
 
 footer ul
@@ -503,15 +517,10 @@ footer ul
 footer #a_propos 
 {
 	padding-right: 200px;
+	padding-left: 150px;
 }
 
 footer #nos_hebergement
 {
 	padding-right: 200px;
-}
-
-
-#bloc_activites
-{
-	display: flex;
 }
