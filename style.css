@@ -12,10 +12,8 @@ body
 
 #bloc_page
 {
-	width: 100vw;
+	width: calc(100% - 300px);
 	margin: auto;
-	padding-left: 150px;
-	
 }
 
 
@@ -24,6 +22,8 @@ body
 .topbar
 {
 	background: white;
+	display: flex;
+	justify-content: space-between;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -38,10 +38,6 @@ body
 	height: 30px;	
 }
 
-.topbar nav
-{
-	float: right;	
-}
 
 .topbar nav a
 {
@@ -56,13 +52,12 @@ body
 {
 	color: #0065FC;
 	border-top: #0065FC solid 4px;
-	padding-top: 10%;
+	padding-top: 14%;
 }
 
 #inscrire
 {
 	color: #0065FC;
-	margin-right: 135px;
 }
 
 
@@ -212,7 +207,6 @@ input
 {
 	display: flex;
 	flex-flow: row wrap;
-	object-fit: cover;
 	padding-left: 15px;
 }
 
@@ -233,6 +227,7 @@ input
 	height: 90px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	object-fit: cover;
 }
 
 
@@ -329,6 +324,7 @@ input
 	height: 110px;
 	border-top-left-radius: 15px;
 	border-bottom-left-radius: 15px;
+	object-fit: cover;
 }
 
 
@@ -504,9 +500,10 @@ input
 footer
 {
 	display: flex;
+	justify-content: space-around;
 	margin-top: 30px;
 	background-color: #F2F2F2;
-	width: 100vw;
+	width: 100%;
 }
 
 footer ul
@@ -516,13 +513,149 @@ footer ul
 }
 
 
-footer #a_propos 
-{
-	padding-right: 200px;
-	padding-left: 150px;
-}
 
-footer #nos_hebergement
+
+
+/** Partie responsive mobile size **/
+
+@media all and (max-device-width: 480px)
 {
-	padding-right: 200px;
+	#bloc_page
+	{
+		width: auto;
+		padding-left: 0px;
+		margin: 0;
+	}
+
+
+
+	.topbar nav a:hover, .topbar nav a.active
+	{
+		color: #0065FC;
+		border-top: none;
+		padding-top: 0;
+	}
+
+
+	#inscrire
+	{
+		margin: 0;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	#Sectionhebergement
+	{
+		width: auto;
+	}
+
+
+	#Section_hebergement_aside
+	{
+		flex-direction: column-reverse;
+	}
+
+	#Sectionhebergement #imageshebergement
+	{
+		flex-direction: column;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		#bloc_activites
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	#Section_activites .activites1
+	{
+		display: initial;
+		width: auto;
+	}
+
+
+	#Section_activites .activites2
+	{
+		display: initial;
+		width: auto;
+	}
+
+
+
+	footer
+	{
+		display: flex;
+		flex-direction: column;
+		width: auto;
+	}
+
+	footer #a_propos
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
