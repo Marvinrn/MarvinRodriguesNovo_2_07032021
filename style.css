@@ -524,7 +524,7 @@ footer ul
 /** Partie responsive mobile size **/
 
 @media screen and (max-device-width: 430px)
-{
+{	
 	#bloc_page
 	{
 		width: auto;
@@ -574,6 +574,7 @@ footer ul
 		position: relative;
 		bottom: 50px;
 		right: 20%;
+		border: none;
 	}
 
 	.topbar nav a:hover, .topbar nav a.active
@@ -630,7 +631,7 @@ footer ul
 
 	#economique
 	{
-		margin-right: 15%;
+		margin-right: 5%;
 	}
 
 	#romantique
@@ -734,5 +735,35 @@ footer ul
 	#Assistance
 	{
 		margin: 0 25px;
+	}
+}
+
+@media screen and (max-device-width: 410px)
+{
+	#inscrire
+	{
+		right: 22%;
+	}
+
+	#economique
+	{
+		margin-right: 3%;
+	}
+}
+
+
+@media screen and (max-device-width: 375px)
+{
+	#inscrire
+	{
+		right: 25%;
+	}
+}
+
+@media screen and (max-device-width: 365px)
+{
+	#economique
+	{
+		margin-right: 1%;
 	}
 }
