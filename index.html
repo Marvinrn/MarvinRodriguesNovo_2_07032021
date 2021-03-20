@@ -18,8 +18,8 @@
             <header class="topbar">
                 <img id="logoreservia" src="Reservia/images/logo/Reservia@3x.png" alt="Logo Reservia">
                 <nav>
-                    <a href="#ancrehebergement" class="active">Hébergements</a>
-                    <a href="#ancreactivites">Activités</a>
+                    <a href="#ancrehebergement" class="active" id="topbar_hebergement">Hébergements</a>
+                    <a href="#ancreactivites" id="topbar_activites">Activités</a>
                     <a href="#" id="inscrire"><strong>S'inscrire</strong></a>
                 </nav>
             </header>
@@ -32,14 +32,14 @@
                 <form method="post" action="traitement.php" class="formulaire">
                     <button class="localisation"><i class="fas fa-map-marker-alt"></i></button>
                     <input type="text" value="Marseille, France">
-                    <button class="rechercher">Rechercher</button>
+                    <button class="rechercher"><i class="fas fa-search"></i><div>Rechercher</div></button>
                 </form>
 
                 <nav class="filtres">
                     <a href="#" id="filtre"><strong>Filtres</strong></a>
-                    <a href="#"><i class="fas fa-money-bill-wave"></i><strong>Économique</strong></a>
+                    <a href="#" id="economique"><i class="fas fa-money-bill-wave"></i><strong>Économique</strong></a>
                     <a href="#"><i class="fas fa-child"></i><strong>Familial</strong></a>
-                    <a href="#"><i class="fas fa-heart"></i><strong>Romantique</strong></a>
+                    <a href="#" id="romantique"><i class="fas fa-heart"></i><strong>Romantique</strong></a>
                     <a href="#"><i class="fas fa-dog"></i><strong>Animaux autorisés</strong></a>
                 </nav>
                 <div class="infobulle">

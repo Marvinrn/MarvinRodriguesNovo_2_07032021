@@ -3,6 +3,7 @@
 	box-sizing: border-box;
 }
 
+
 body
 {
 	font-family: 'Raleway', sans-serif;
@@ -108,12 +109,16 @@ input
 	padding: 13px 15px;
 }
 
+.formulaire .rechercher i
+{
+	display: none;
+}
+
 
 /* Menu des filtres */
 
 .filtres a
 {
-	padding-right: 40px;
 	margin-right: 20px;
 	text-decoration: none;
 	color: black;
@@ -518,66 +523,126 @@ footer ul
 
 /** Partie responsive mobile size **/
 
-@media all and (max-device-width: 480px)
+@media screen and (max-device-width: 430px)
 {
 	#bloc_page
 	{
 		width: auto;
-		padding-left: 0px;
-		margin: 0;
 	}
 
-
-
-	.topbar nav a:hover, .topbar nav a.active
+	/** top bar **/
+	.topbar
 	{
-		color: #0065FC;
-		border-top: none;
-		padding-top: 0;
+		flex-direction: column;
+		padding-top: 30px;
+	}
+
+	#logoreservia
+	{
+		margin-bottom: 15px;
+		margin: 0 25px 25px 25px;
+	}
+
+	.topbar nav
+	{		
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.topbar nav a
+	{
+		padding: 0;
+	}
+
+	.topbar #topbar_hebergement
+	{
+		padding-left: 10%;
+		padding-right: 16%;
+	}
+
+	.topbar #topbar_activites
+	{
+		padding-left: 17%;
+		padding-right: 20%;
+		border-bottom: 4px solid #F2F2F2;
+		padding-bottom: 3%;
 	}
 
 
 	#inscrire
 	{
-		margin: 0;
+		position: relative;
+		bottom: 50px;
+		right: 20%;
 	}
 
+	.topbar nav a:hover, .topbar nav a.active
+	{
+		color: #0065FC;
+		border-top: none;
+		border-bottom: 4px solid #0065FC;
+		padding-bottom: 3%;
+		padding-top: 0;
+	}
 
+	
+	
+	/* section filtre formulaire */
 
+	.formulaire input
+	{
+		width: 50%;
+	}
 
+	.formulaire .rechercher div
+	{
+		display: none;
+	}
 
+	.formulaire .rechercher i
+	{
+		display: initial;
+	}
 
+	#Section1
+	{
+		margin: 0 25px;
+	}
 
+	#Section1 .filtres
+	{
+		display: flex;
+		flex-wrap: wrap;
+	}
 
+	.filtres a
+	{
+		margin-right: 0;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		padding: 0 20px 0 0;
+	}
 
+	#filtre
+	{
+		width: 100%;
+	}
 
+	#economique
+	{
+		margin-right: 15%;
+	}
 
+	#romantique
+	{
+		margin-right: 20%;
+	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	/* Section hebergement populaire */
 	#Sectionhebergement
 	{
-		width: auto;
+		width:auto;
+		background-color: white;
 	}
 
 
@@ -589,47 +654,53 @@ footer ul
 	#Sectionhebergement #imageshebergement
 	{
 		flex-direction: column;
+		padding-left: 0;
+
 	}
 
+	#Sectionhebergement figure img
+	{
+		width: 100%;
+	}
 
+	#populaire
+	{
+		width: 100%;
+		border-radius: 0px;
+	}
 
+	/* Section activité */
+	#Section_activites
+	{
+		margin: 0 25px;
+	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-		#bloc_activites
+	#bloc_activites
 	{
 		display: flex;
-		flex-direction: column;
+		flex-direction: column;		
 	}
 
+	#bloc_activites figure img
+	{
+		width: 100%;
+		height: 150px;
+	}
+
+	.activites1
+	{
+		margin-bottom: 25px;
+	}
+
+	.activites1	.grande_activite
+	{
+		margin: 0 0 25px 0;
+	}
+
+	.activites2	.grande_activite
+	{
+		margin: 0 0 25px 0;
+	}
 
 	#Section_activites .activites1
 	{
@@ -644,18 +715,24 @@ footer ul
 		width: auto;
 	}
 
-
-
+	/* footer */
 	footer
 	{
-		display: flex;
 		flex-direction: column;
-		width: auto;
 	}
 
-	footer #a_propos
+	#a_propos
 	{
-		padding-left: 0;
-		padding-right: 0;
+		margin: 0 25px;
+	}
+
+	#nos_hebergement
+	{
+		margin: 0 25px;
+	}
+
+	#Assistance
+	{
+		margin: 0 25px;
 	}
 }
