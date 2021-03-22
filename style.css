@@ -595,6 +595,11 @@ footer ul
 		width: 50%;
 	}
 
+	.rechercher
+	{
+		border-radius: 15px;
+	}
+
 	.formulaire .rechercher div
 	{
 		display: none;
