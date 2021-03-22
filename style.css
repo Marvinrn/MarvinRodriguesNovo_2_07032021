@@ -520,10 +520,160 @@ footer ul
 
 
 
+/* responsive tablette landscape */
+@media only screen and (max-device-width : 1024px) and (min-device-width : 768px)
+{
+	#bloc_page
+	{
+		width: auto;
+	}
+
+	/*top bar */
+	#logoreservia
+	{
+		margin: 0 15px
+	}
+
+	/* menu nav formulaire filtres*/
+	#Section1
+	{
+		margin: 0 15px;
+	}
+
+	/* section hebergement aside populaire */
+	#Section_hebergement_aside
+	{
+		flex-direction: column-reverse;
+		margin: 0 15px;
+	}
+
+	#Sectionhebergement
+	{
+		width: 100%;
+		margin: 0;
+	}
+
+	#Sectionhebergement h2
+	{
+		padding-left: 30px;
+	}
+
+	#Sectionhebergement #imageshebergement
+	{
+		justify-content: space-evenly;
+		padding-left: 0;
+	}
+
+	#Sectionhebergement figure
+	{
+		margin-left: 10px;
+	}
+
+	#Sectionhebergement .afficher_plus h4
+	{
+		margin: 0 15px;
+	}
+
+	#populaire
+	{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	#populaire #imagepopulaire
+	{
+		display: flex;
+		flex-direction: row;
+	}
+
+	/*Section Activités */
+	#Section_activites
+	{
+		margin: 0 15px;
+	}
+
+	#bloc_activites
+	{
+		display: flex;
+		flex-direction: column;		
+	}
+
+	#Section_activites .titre_activites
+	{
+		text-align: center;
+		margin: 20px;
+	}
+
+	#Section_activites .activites1
+	{
+		width: 100%;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+	
+	#Section_activites .activites2
+	{
+		width: 100%;
+		justify-content: center;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-device-width: 834px) and (orientation: portrait)
+{
+	/* Menu nav formulaire filtres */
+	#Section1
+	{
+		margin: 0 25px;
+	}
+
+	#Section1 .filtres
+	{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#Section1 #filtre
+	{
+		margin-top: 15px;
+		padding-right: 0;
+	}	
+
+	.filtres a
+	{	
+		padding: 0 20px 0 0;
+	}
+
+	#animaux
+	{
+		margin-left: 65px;
+		margin-top: 5px;
+	}
+
+	/* Section hebergement aside populaire */
+	#populaire figure
+	{
+		flex-direction: column;
+	}
+
+	#populaire figure img	
+	{
+		width: 100%;
+		border-top-right-radius: 15px;
+		border-bottom-left-radius: 0;
+	}
+
+	#populaire figure figcaption i
+	{
+		padding-top: 0;
+		padding-bottom: 10px;
+	}
+}
+
 
 /** Partie responsive mobile size **/
 
-@media screen and (max-device-width: 480px)
+@media screen and (max-device-width: 767px)
 {	
 	#bloc_page
 	{
@@ -642,6 +792,12 @@ footer ul
 	#romantique
 	{
 		margin-right: 20%;
+	}
+
+	#animaux
+	{
+		margin-left: 0;
+		margin-top: 0;
 	}
 
 	/* Section hebergement populaire */
