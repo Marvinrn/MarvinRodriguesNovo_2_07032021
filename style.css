@@ -523,7 +523,7 @@ footer ul
 
 /** Partie responsive mobile size **/
 
-@media screen and (max-device-width: 430px)
+@media screen and (max-device-width: 480px)
 {	
 	#bloc_page
 	{
@@ -547,23 +547,23 @@ footer ul
 	{		
 		display: flex;
 		justify-content: space-between;
+		width: 100%;
 	}
 	
 	.topbar nav a
 	{
 		padding: 0;
+		text-align: center;
 	}
 
 	.topbar #topbar_hebergement
 	{
-		padding-left: 10%;
-		padding-right: 16%;
+		width: 50%;
 	}
 
 	.topbar #topbar_activites
 	{
-		padding-left: 17%;
-		padding-right: 20%;
+		width: 50%;
 		border-bottom: 4px solid #F2F2F2;
 		padding-bottom: 3%;
 	}
@@ -571,9 +571,9 @@ footer ul
 
 	#inscrire
 	{
-		position: relative;
-		bottom: 50px;
-		right: 20%;
+		position: absolute;
+		top: 32px;
+		right: 8%;
 		border: none;
 	}
 
@@ -592,7 +592,7 @@ footer ul
 
 	.formulaire input
 	{
-		width: 50%;
+		width: calc(100% - 85px);
 	}
 
 	.rechercher
@@ -745,23 +745,9 @@ footer ul
 
 @media screen and (max-device-width: 410px)
 {
-	#inscrire
-	{
-		right: 22%;
-	}
-
 	#economique
 	{
 		margin-right: 3%;
-	}
-}
-
-
-@media screen and (max-device-width: 375px)
-{
-	#inscrire
-	{
-		right: 25%;
 	}
 }
 
