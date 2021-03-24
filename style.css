@@ -456,7 +456,7 @@ input
 
 .activites2 .column .petite_activite .notredame
 {
-	width: 270px;
+	width: 255px;
 	height: 135px;
 	object-fit: cover;
 }
@@ -464,7 +464,7 @@ input
 
 .activites2 .column .petite_activite .longchamp
 {
-	width: 270px;
+	width: 255px;
 	height: 106px;
 	object-fit: cover;
 }
@@ -521,7 +521,7 @@ footer ul
 
 
 /* responsive tablette landscape */
-@media only screen and (max-device-width : 1024px) and (min-device-width : 768px)
+@media only screen and (max-width : 1024px) and (min-width : 768px)
 {
 	#bloc_page
 	{
@@ -555,7 +555,8 @@ footer ul
 
 	#Sectionhebergement h2
 	{
-		padding-left: 30px;
+		text-align: center;
+		padding: 0;
 	}
 
 	#Sectionhebergement #imageshebergement
@@ -571,7 +572,8 @@ footer ul
 
 	#Sectionhebergement .afficher_plus h4
 	{
-		margin: 0 15px;
+		text-align: center;
+		padding-left: 0;
 	}
 
 	#populaire
@@ -616,10 +618,21 @@ footer ul
 		width: 100%;
 		justify-content: center;
 		margin-bottom: 20px;
+		flex-direction: row-reverse;
 	}
+
+	.activites2 .grande_activite
+	{
+		margin: 0;
+	}
+
+	.activites2 .column
+	{
+		margin-right: 65px;
+	}	
 }
 
-@media (max-device-width: 834px) and (orientation: portrait)
+@media (max-width: 834px) and (orientation: portrait)
 {
 	/* Menu nav formulaire filtres */
 	#Section1
@@ -673,7 +686,7 @@ footer ul
 
 /** Partie responsive mobile size **/
 
-@media screen and (max-device-width: 767px)
+@media screen and (max-width: 767px)
 {	
 	#bloc_page
 	{
