@@ -598,6 +598,11 @@ footer ul
 		padding-left: 30px;
 	}
 
+	#populaire figure
+	{
+		width: 100%;
+	}
+
 	#populaire #imagepopulaire
 	{
 		display: flex;
