@@ -582,6 +582,22 @@ footer ul
 		margin-bottom: 20px;
 	}
 
+	#populaire .titre_populaire
+	{
+		justify-content: center;
+	}
+
+	#populaire .titre_populaire h2
+	{
+		padding: 0;
+	}
+
+	#populaire .titre_populaire i
+	{
+		padding-right: 0;
+		padding-left: 30px;
+	}
+
 	#populaire #imagepopulaire
 	{
 		display: flex;
