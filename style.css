@@ -84,7 +84,7 @@ form
 .localisation
 {
 	background-color: #F2F2F2;
-	border: 1px solid #F2F2F2;
+	border: 1px solid rgba(243, 243, 243, 0.938);
 	border-top-left-radius: 15px;
 	border-bottom-left-radius: 15px;
 	padding: 13px;
@@ -102,7 +102,7 @@ input
 .rechercher
 {
 	background-color: #0065FC;
-	border: 1px solid #0065FC;
+	border: 1px solid rgb(87, 87, 255);
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
 	color: white;
@@ -145,7 +145,7 @@ input
 {
 	margin-right: 10px;
 	padding: 13px;
-	border: 1px solid #DEEBFF;
+	border: 1px solid #deebfff6;
 	background-color: #DEEBFF;
 	color: #0065FC;
 	border-radius: 50%;
@@ -220,6 +220,8 @@ input
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
+	max-width: 1080px;
+	margin: auto;
 }
 
 
@@ -537,12 +539,6 @@ footer ul
 
 @media only screen and (min-width : 1159px) and (max-width : 1202px)
 {
-	#Sectionhebergement #imageshebergement
-	{
-		justify-content: center;
-		padding-left: 0;
-	}
-
 	#Sectionhebergement figure img
 	{
 		width: 220px;
@@ -551,12 +547,6 @@ footer ul
 
 @media only screen and (min-width : 1093px) and (max-width : 1160px)
 {
-	#Sectionhebergement #imageshebergement
-	{
-		justify-content: center;
-		padding-left: 0;
-	}
-
 	#Sectionhebergement figure img
 	{
 		width: 200px;
@@ -565,12 +555,6 @@ footer ul
 
 @media only screen and (min-width : 1025px) and (max-width : 1194px)
 {
-	#Sectionhebergement #imageshebergement
-	{
-		justify-content: center;
-		padding-left: 0;
-	}
-
 	#Sectionhebergement figure img
 	{
 		width: 170px;
@@ -878,7 +862,7 @@ footer ul
 		border-radius: 15px;
 	}
 
-	.formulaire .rechercher div
+	.formulaire .rechercher span
 	{
 		display: none;
 	}
@@ -933,6 +917,7 @@ footer ul
 	{
 		width:auto;
 		background-color: white;
+		margin-right: 0;
 	}
 
 
@@ -944,8 +929,8 @@ footer ul
 	#Sectionhebergement #imageshebergement
 	{
 		flex-direction: column;
-		padding-left: 0;
-
+		max-width: 450px;
+		margin: auto;
 	}
 
 	#Sectionhebergement figure img
@@ -959,6 +944,12 @@ footer ul
 		border-radius: 0px;
 	}
 
+	#populaire #imagepopulaire
+	{
+		max-width: 450px;
+		margin: auto;
+	}
+
 	/* Section activité */
 	#Section_activites
 	{
@@ -968,7 +959,9 @@ footer ul
 	#bloc_activites
 	{
 		display: flex;
-		flex-direction: column;		
+		flex-direction: column;	
+		max-width: 450px;
+		margin: auto;	
 	}
 
 	#bloc_activites figure img
@@ -1027,7 +1020,7 @@ footer ul
 	}
 }
 
-@media screen and (max-device-width: 410px)
+@media screen and (max-width: 410px)
 {
 	#economique
 	{
@@ -1035,7 +1028,7 @@ footer ul
 	}
 }
 
-@media screen and (max-device-width: 365px)
+@media screen and (max-width: 365px)
 {
 	#economique
 	{
