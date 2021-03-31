@@ -219,7 +219,7 @@ input
 {
 	display: flex;
 	flex-flow: row wrap;
-	padding-left: 15px;
+	justify-content: center;
 }
 
 
@@ -229,7 +229,7 @@ input
 	background-color: white;
 	border-radius: 15px;
 	padding: 5px;
-	margin: 0 0 30px 30px;
+	margin: 0 15px 30px 15px;
 	box-shadow: 0px 2px 15px lightgrey;
 }
 
@@ -534,20 +534,6 @@ footer ul
 	}
 }
 
-@media only screen and (min-width : 1202px) and (max-width : 1280px)
-{
-	/* hebergement */
-	#Sectionhebergement #imageshebergement
-	{
-		justify-content: center;
-		padding-left: 0;
-	}
-
-	#Sectionhebergement figure
-	{
-		margin: 0 0 30px 15px;
-	}
-}
 
 @media only screen and (min-width : 1159px) and (max-width : 1202px)
 {
