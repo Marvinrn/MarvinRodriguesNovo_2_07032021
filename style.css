@@ -390,6 +390,7 @@ input
 #bloc_activites
 {
 	display: flex;
+	justify-content: center;
 }
 
 /* Sous section activité 1 (composée des 3 images de gauche) */
@@ -397,7 +398,8 @@ input
 #Section_activites .activites1
 {
 	display: flex;
-	width: 630px;
+	width: 50%;
+	justify-content: center;
 }
 
 
@@ -412,7 +414,6 @@ input
 	height: 300px;
 	object-fit: cover;
 }
-
 
 .activites1 .column .petite_activite
 {
@@ -441,6 +442,7 @@ input
 {
 	display: flex;
 	width: 50%;
+	justify-content: center;
 }
 
 
