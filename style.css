@@ -17,6 +17,7 @@ body
 	margin: auto;
 }
 
+/* carte herbergement populaire et activités */
 .carte_cliquable
 {
 	text-decoration: none;
@@ -260,13 +261,15 @@ input
 #Sectionhebergement figure figcaption h3
 {
 	font-size: 0.8em;
-	margin: 3px 0;
+	padding: 3px 0;
+	margin: 0;
 }
 
 #Sectionhebergement figure figcaption p
 {
 	font-size: 0.6em;
-	margin: 5px 0;
+	padding: 5px 0;
+	margin: 0;
 	
 }
 
@@ -357,13 +360,15 @@ input
 #populaire figure figcaption h3
 {
 	font-size: 0.8em;
-	margin: 3px 0;
+	padding: 3px 0;
+	margin: 0;
 }
 
 #populaire figure figcaption p
 {
 	font-size: 0.6em;
-	margin: 5px 0;
+	padding: 5px 0;
+	margin: 0;
 	
 }
 
@@ -505,8 +510,8 @@ input
 
 #Section_activites figure figcaption h3
 {
-	margin: 5px 0 0 0;
-	padding-left: 20px;
+	padding: 5px 0 0 20px;
+	margin: 0;
 	font-size: 0.7em;
 }
 
