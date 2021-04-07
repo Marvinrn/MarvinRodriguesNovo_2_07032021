@@ -17,6 +17,12 @@ body
 	margin: auto;
 }
 
+.carte_cliquable
+{
+	text-decoration: none;
+	color: black;
+}
+
 
 /* Topbar Logo Reservia et menu nav */
 
