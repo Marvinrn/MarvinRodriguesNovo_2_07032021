@@ -605,7 +605,7 @@ footer ul
 }
 
 /* responsive tablette landscape */
-@media only screen and (max-width : 1025px) and (min-width : 768px)
+@media only screen and (max-width : 1025px) and (min-width : 767px)
 {
 	#bloc_page
 	{
@@ -738,7 +738,7 @@ footer ul
 	}	
 }
 
-@media (max-width: 899px)
+@media only screen and (max-width: 899px) and (min-width : 767px)
 {
 	#populaire figure
 	{
@@ -769,7 +769,7 @@ footer ul
 	}
 }
 
-@media only screen and (max-width: 834px) and (min-width : 768px)
+@media only screen and (max-width: 834px) and (min-width : 767px)
 {
 	/* Menu nav formulaire filtres */
 	#Section1
